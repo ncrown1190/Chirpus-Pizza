@@ -1,0 +1,54 @@
+.body {
+  /* border: 10px solid red; */
+  padding: 50px;
+}
+.sold-out .sold-out-text {
+  color: gray;
+  text-decoration: line-through;
+}
+.main {
+  font-size: 20px;
+}
+button[disabled] {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.display-div {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+span {
+  padding: 5px;
+}
+.category-div {
+  padding: 0 5px 0px 10px;
+}
+.price-div {
+  padding: 0 5px 0px 10px;
+}
+button {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+button:hover {
+  background-color: aqua;
+}
+.veg {
+  color: green;
+  font-weight: 600;
+}
+h2{
+    padding-left: 15px;
+    color: rgb(94, 22, 75);
+    font-size: 22px;
+}
